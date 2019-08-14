@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="./include/Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="./include/EnnExchange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_framing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_hostcheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_openssl_bio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_openssl_hostname_validation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_socket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_ssl_socket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_tcp_socket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\platform_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\split_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\consumer_work.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_msg_object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\amqp_client_managed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\split_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="./src/EnnExchange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\consumer_work.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\amqp_client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\amqp_msg_object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\amqp_client_managed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dll_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
